@@ -115,7 +115,7 @@ public class Basic9Streams {
                 .flatMap(Collection::stream) // wskazujemy, co robimy z każdą listą, tutaj tworzymy z każdej strumień liczb
                 .forEach(System.out::println);
 
-
+        System.out.println("Hello world!");
 
 
     }
